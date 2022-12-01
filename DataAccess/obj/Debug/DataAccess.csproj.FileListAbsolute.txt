@@ -1,0 +1,9 @@
+D:\Assignments Semester 04\SOC\Visual Studio Project\HotelManagementSystemProject\DataAccess\bin\Debug\DataAccess.dll
+D:\Assignments Semester 04\SOC\Visual Studio Project\HotelManagementSystemProject\DataAccess\bin\Debug\DataAccess.pdb
+D:\Assignments Semester 04\SOC\Visual Studio Project\HotelManagementSystemProject\DataAccess\obj\Debug\DataAccess.dll
+D:\Assignments Semester 04\SOC\Visual Studio Project\HotelManagementSystemProject\DataAccess\obj\Debug\DataAccess.pdb
+D:\Assignments Semester 04\SOC\SOC Submit\Visual Studio Project\HotelManagementSystemProject\DataAccess\bin\Debug\DataAccess.dll
+D:\Assignments Semester 04\SOC\SOC Submit\Visual Studio Project\HotelManagementSystemProject\DataAccess\bin\Debug\DataAccess.pdb
+D:\Assignments Semester 04\SOC\SOC Submit\Visual Studio Project\HotelManagementSystemProject\DataAccess\obj\Debug\DataAccess.csprojResolveAssemblyReference.cache
+D:\Assignments Semester 04\SOC\SOC Submit\Visual Studio Project\HotelManagementSystemProject\DataAccess\obj\Debug\DataAccess.dll
+D:\Assignments Semester 04\SOC\SOC Submit\Visual Studio Project\HotelManagementSystemProject\DataAccess\obj\Debug\DataAccess.pdb

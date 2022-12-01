@@ -1,0 +1,249 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wsdl:definitions xmlns:soapenc="http://schemas.xmlsoap.org/soap/encoding/" xmlns:mime="http://schemas.xmlsoap.org/wsdl/mime/" xmlns:tns="http://tempuri.org/" xmlns:s="http://www.w3.org/2001/XMLSchema" xmlns:soap="http://schemas.xmlsoap.org/wsdl/soap/" xmlns:tm="http://microsoft.com/wsdl/mime/textMatching/" xmlns:http="http://schemas.xmlsoap.org/wsdl/http/" xmlns:soap12="http://schemas.xmlsoap.org/wsdl/soap12/" targetNamespace="http://tempuri.org/" xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">
+  <wsdl:types>
+    <s:schema elementFormDefault="qualified" targetNamespace="http://tempuri.org/">
+      <s:element name="insertHotels">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="Name" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="Address" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="UserName" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="Password" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="insertHotelsResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="1" maxOccurs="1" name="insertHotelsResult" type="s:int" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="updateHotels">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="Name" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="Address" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="UserName" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="Password" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="updateHotelsResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="1" maxOccurs="1" name="updateHotelsResult" type="s:int" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="deleteHotels">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="UserName" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="deleteHotelsResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="1" maxOccurs="1" name="deleteHotelsResult" type="s:int" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="searchHotels">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="UserName" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="searchHotelsResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="searchHotelsResult">
+              <s:complexType>
+                <s:sequence>
+                  <s:element ref="s:schema" />
+                  <s:any />
+                </s:sequence>
+              </s:complexType>
+            </s:element>
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="searchAllHotels">
+        <s:complexType />
+      </s:element>
+      <s:element name="searchAllHotelsResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="searchAllHotelsResult">
+              <s:complexType>
+                <s:sequence>
+                  <s:element ref="s:schema" />
+                  <s:any />
+                </s:sequence>
+              </s:complexType>
+            </s:element>
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+    </s:schema>
+  </wsdl:types>
+  <wsdl:message name="insertHotelsSoapIn">
+    <wsdl:part name="parameters" element="tns:insertHotels" />
+  </wsdl:message>
+  <wsdl:message name="insertHotelsSoapOut">
+    <wsdl:part name="parameters" element="tns:insertHotelsResponse" />
+  </wsdl:message>
+  <wsdl:message name="updateHotelsSoapIn">
+    <wsdl:part name="parameters" element="tns:updateHotels" />
+  </wsdl:message>
+  <wsdl:message name="updateHotelsSoapOut">
+    <wsdl:part name="parameters" element="tns:updateHotelsResponse" />
+  </wsdl:message>
+  <wsdl:message name="deleteHotelsSoapIn">
+    <wsdl:part name="parameters" element="tns:deleteHotels" />
+  </wsdl:message>
+  <wsdl:message name="deleteHotelsSoapOut">
+    <wsdl:part name="parameters" element="tns:deleteHotelsResponse" />
+  </wsdl:message>
+  <wsdl:message name="searchHotelsSoapIn">
+    <wsdl:part name="parameters" element="tns:searchHotels" />
+  </wsdl:message>
+  <wsdl:message name="searchHotelsSoapOut">
+    <wsdl:part name="parameters" element="tns:searchHotelsResponse" />
+  </wsdl:message>
+  <wsdl:message name="searchAllHotelsSoapIn">
+    <wsdl:part name="parameters" element="tns:searchAllHotels" />
+  </wsdl:message>
+  <wsdl:message name="searchAllHotelsSoapOut">
+    <wsdl:part name="parameters" element="tns:searchAllHotelsResponse" />
+  </wsdl:message>
+  <wsdl:portType name="RoomManagementServiceSoap">
+    <wsdl:operation name="insertHotels">
+      <wsdl:input message="tns:insertHotelsSoapIn" />
+      <wsdl:output message="tns:insertHotelsSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="updateHotels">
+      <wsdl:input message="tns:updateHotelsSoapIn" />
+      <wsdl:output message="tns:updateHotelsSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="deleteHotels">
+      <wsdl:input message="tns:deleteHotelsSoapIn" />
+      <wsdl:output message="tns:deleteHotelsSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="searchHotels">
+      <wsdl:input message="tns:searchHotelsSoapIn" />
+      <wsdl:output message="tns:searchHotelsSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="searchAllHotels">
+      <wsdl:input message="tns:searchAllHotelsSoapIn" />
+      <wsdl:output message="tns:searchAllHotelsSoapOut" />
+    </wsdl:operation>
+  </wsdl:portType>
+  <wsdl:binding name="RoomManagementServiceSoap" type="tns:RoomManagementServiceSoap">
+    <soap:binding transport="http://schemas.xmlsoap.org/soap/http" />
+    <wsdl:operation name="insertHotels">
+      <soap:operation soapAction="http://tempuri.org/insertHotels" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="updateHotels">
+      <soap:operation soapAction="http://tempuri.org/updateHotels" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="deleteHotels">
+      <soap:operation soapAction="http://tempuri.org/deleteHotels" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="searchHotels">
+      <soap:operation soapAction="http://tempuri.org/searchHotels" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="searchAllHotels">
+      <soap:operation soapAction="http://tempuri.org/searchAllHotels" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+  </wsdl:binding>
+  <wsdl:binding name="RoomManagementServiceSoap12" type="tns:RoomManagementServiceSoap">
+    <soap12:binding transport="http://schemas.xmlsoap.org/soap/http" />
+    <wsdl:operation name="insertHotels">
+      <soap12:operation soapAction="http://tempuri.org/insertHotels" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="updateHotels">
+      <soap12:operation soapAction="http://tempuri.org/updateHotels" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="deleteHotels">
+      <soap12:operation soapAction="http://tempuri.org/deleteHotels" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="searchHotels">
+      <soap12:operation soapAction="http://tempuri.org/searchHotels" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="searchAllHotels">
+      <soap12:operation soapAction="http://tempuri.org/searchAllHotels" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+  </wsdl:binding>
+  <wsdl:service name="RoomManagementService">
+    <wsdl:port name="RoomManagementServiceSoap" binding="tns:RoomManagementServiceSoap">
+      <soap:address location="http://localhost:54007/RoomManagementService.asmx" />
+    </wsdl:port>
+    <wsdl:port name="RoomManagementServiceSoap12" binding="tns:RoomManagementServiceSoap12">
+      <soap12:address location="http://localhost:54007/RoomManagementService.asmx" />
+    </wsdl:port>
+  </wsdl:service>
+</wsdl:definitions>

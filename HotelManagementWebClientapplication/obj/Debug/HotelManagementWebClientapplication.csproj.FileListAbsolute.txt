@@ -1,0 +1,54 @@
+D:\Assignments Semester 04\SOC\Visual Studio Project\HotelManagementSystemProject\HotelManagementWebClientapplication\bin\roslyn\csc.exe
+D:\Assignments Semester 04\SOC\Visual Studio Project\HotelManagementSystemProject\HotelManagementWebClientapplication\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+D:\Assignments Semester 04\SOC\Visual Studio Project\HotelManagementSystemProject\HotelManagementWebClientapplication\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+D:\Assignments Semester 04\SOC\Visual Studio Project\HotelManagementSystemProject\HotelManagementWebClientapplication\bin\roslyn\Microsoft.CodeAnalysis.dll
+D:\Assignments Semester 04\SOC\Visual Studio Project\HotelManagementSystemProject\HotelManagementWebClientapplication\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+D:\Assignments Semester 04\SOC\Visual Studio Project\HotelManagementSystemProject\HotelManagementWebClientapplication\bin\roslyn\Microsoft.CSharp.Core.targets
+D:\Assignments Semester 04\SOC\Visual Studio Project\HotelManagementSystemProject\HotelManagementWebClientapplication\bin\roslyn\Microsoft.VisualBasic.Core.targets
+D:\Assignments Semester 04\SOC\Visual Studio Project\HotelManagementSystemProject\HotelManagementWebClientapplication\bin\roslyn\System.Collections.Immutable.dll
+D:\Assignments Semester 04\SOC\Visual Studio Project\HotelManagementSystemProject\HotelManagementWebClientapplication\bin\roslyn\System.Reflection.Metadata.dll
+D:\Assignments Semester 04\SOC\Visual Studio Project\HotelManagementSystemProject\HotelManagementWebClientapplication\bin\roslyn\vbc.exe
+D:\Assignments Semester 04\SOC\Visual Studio Project\HotelManagementSystemProject\HotelManagementWebClientapplication\bin\roslyn\VBCSCompiler.exe
+D:\Assignments Semester 04\SOC\Visual Studio Project\HotelManagementSystemProject\HotelManagementWebClientapplication\bin\roslyn\VBCSCompiler.exe.config
+D:\Assignments Semester 04\SOC\Visual Studio Project\HotelManagementSystemProject\HotelManagementWebClientapplication\bin\HotelManagementWebClientapplication.dll.config
+D:\Assignments Semester 04\SOC\Visual Studio Project\HotelManagementSystemProject\HotelManagementWebClientapplication\bin\HotelManagementWebClientapplication.dll
+D:\Assignments Semester 04\SOC\Visual Studio Project\HotelManagementSystemProject\HotelManagementWebClientapplication\bin\HotelManagementWebClientapplication.pdb
+D:\Assignments Semester 04\SOC\Visual Studio Project\HotelManagementSystemProject\HotelManagementWebClientapplication\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+D:\Assignments Semester 04\SOC\Visual Studio Project\HotelManagementSystemProject\HotelManagementWebClientapplication\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+D:\Assignments Semester 04\SOC\Visual Studio Project\HotelManagementSystemProject\HotelManagementWebClientapplication\obj\Debug\HotelManagementWebClientapplication.csprojResolveAssemblyReference.cache
+D:\Assignments Semester 04\SOC\Visual Studio Project\HotelManagementSystemProject\HotelManagementWebClientapplication\obj\Debug\HotelManagementWebClientapplication.dll
+D:\Assignments Semester 04\SOC\Visual Studio Project\HotelManagementSystemProject\HotelManagementWebClientapplication\obj\Debug\HotelManagementWebClientapplication.pdb
+D:\Assignments Semester 04\SOC\Visual Studio Project\HotelManagementSystemProject\HotelManagementWebClientapplication\bin\Microsoft.ReportViewer.WebForms.dll
+D:\Assignments Semester 04\SOC\Visual Studio Project\HotelManagementSystemProject\HotelManagementWebClientapplication\bin\Microsoft.ReportViewer.Common.dll
+D:\Assignments Semester 04\SOC\Visual Studio Project\HotelManagementSystemProject\HotelManagementWebClientapplication\bin\Microsoft.ReportViewer.WebForms.xml
+D:\Assignments Semester 04\SOC\Visual Studio Project\HotelManagementSystemProject\HotelManagementWebClientapplication\bin\Business.dll
+D:\Assignments Semester 04\SOC\Visual Studio Project\HotelManagementSystemProject\HotelManagementWebClientapplication\bin\DataAccess.dll
+D:\Assignments Semester 04\SOC\Visual Studio Project\HotelManagementSystemProject\HotelManagementWebClientapplication\bin\Business.pdb
+D:\Assignments Semester 04\SOC\Visual Studio Project\HotelManagementSystemProject\HotelManagementWebClientapplication\bin\DataAccess.pdb
+D:\Assignments Semester 04\SOC\SOC Submit\Visual Studio Project\HotelManagementSystemProject\HotelManagementWebClientapplication\bin\roslyn\csc.exe
+D:\Assignments Semester 04\SOC\SOC Submit\Visual Studio Project\HotelManagementSystemProject\HotelManagementWebClientapplication\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+D:\Assignments Semester 04\SOC\SOC Submit\Visual Studio Project\HotelManagementSystemProject\HotelManagementWebClientapplication\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+D:\Assignments Semester 04\SOC\SOC Submit\Visual Studio Project\HotelManagementSystemProject\HotelManagementWebClientapplication\bin\roslyn\Microsoft.CodeAnalysis.dll
+D:\Assignments Semester 04\SOC\SOC Submit\Visual Studio Project\HotelManagementSystemProject\HotelManagementWebClientapplication\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+D:\Assignments Semester 04\SOC\SOC Submit\Visual Studio Project\HotelManagementSystemProject\HotelManagementWebClientapplication\bin\roslyn\Microsoft.CSharp.Core.targets
+D:\Assignments Semester 04\SOC\SOC Submit\Visual Studio Project\HotelManagementSystemProject\HotelManagementWebClientapplication\bin\roslyn\Microsoft.VisualBasic.Core.targets
+D:\Assignments Semester 04\SOC\SOC Submit\Visual Studio Project\HotelManagementSystemProject\HotelManagementWebClientapplication\bin\roslyn\System.Collections.Immutable.dll
+D:\Assignments Semester 04\SOC\SOC Submit\Visual Studio Project\HotelManagementSystemProject\HotelManagementWebClientapplication\bin\roslyn\System.Reflection.Metadata.dll
+D:\Assignments Semester 04\SOC\SOC Submit\Visual Studio Project\HotelManagementSystemProject\HotelManagementWebClientapplication\bin\roslyn\vbc.exe
+D:\Assignments Semester 04\SOC\SOC Submit\Visual Studio Project\HotelManagementSystemProject\HotelManagementWebClientapplication\bin\roslyn\VBCSCompiler.exe
+D:\Assignments Semester 04\SOC\SOC Submit\Visual Studio Project\HotelManagementSystemProject\HotelManagementWebClientapplication\bin\roslyn\VBCSCompiler.exe.config
+D:\Assignments Semester 04\SOC\SOC Submit\Visual Studio Project\HotelManagementSystemProject\HotelManagementWebClientapplication\bin\HotelManagementWebClientapplication.dll.config
+D:\Assignments Semester 04\SOC\SOC Submit\Visual Studio Project\HotelManagementSystemProject\HotelManagementWebClientapplication\bin\HotelManagementWebClientapplication.dll
+D:\Assignments Semester 04\SOC\SOC Submit\Visual Studio Project\HotelManagementSystemProject\HotelManagementWebClientapplication\bin\HotelManagementWebClientapplication.pdb
+D:\Assignments Semester 04\SOC\SOC Submit\Visual Studio Project\HotelManagementSystemProject\HotelManagementWebClientapplication\bin\Business.dll
+D:\Assignments Semester 04\SOC\SOC Submit\Visual Studio Project\HotelManagementSystemProject\HotelManagementWebClientapplication\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+D:\Assignments Semester 04\SOC\SOC Submit\Visual Studio Project\HotelManagementSystemProject\HotelManagementWebClientapplication\bin\Microsoft.ReportViewer.WebForms.dll
+D:\Assignments Semester 04\SOC\SOC Submit\Visual Studio Project\HotelManagementSystemProject\HotelManagementWebClientapplication\bin\DataAccess.dll
+D:\Assignments Semester 04\SOC\SOC Submit\Visual Studio Project\HotelManagementSystemProject\HotelManagementWebClientapplication\bin\Microsoft.ReportViewer.Common.dll
+D:\Assignments Semester 04\SOC\SOC Submit\Visual Studio Project\HotelManagementSystemProject\HotelManagementWebClientapplication\bin\Business.pdb
+D:\Assignments Semester 04\SOC\SOC Submit\Visual Studio Project\HotelManagementSystemProject\HotelManagementWebClientapplication\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+D:\Assignments Semester 04\SOC\SOC Submit\Visual Studio Project\HotelManagementSystemProject\HotelManagementWebClientapplication\bin\Microsoft.ReportViewer.WebForms.xml
+D:\Assignments Semester 04\SOC\SOC Submit\Visual Studio Project\HotelManagementSystemProject\HotelManagementWebClientapplication\bin\DataAccess.pdb
+D:\Assignments Semester 04\SOC\SOC Submit\Visual Studio Project\HotelManagementSystemProject\HotelManagementWebClientapplication\obj\Debug\HotelManagementWebClientapplication.csprojResolveAssemblyReference.cache
+D:\Assignments Semester 04\SOC\SOC Submit\Visual Studio Project\HotelManagementSystemProject\HotelManagementWebClientapplication\obj\Debug\HotelManagementWebClientapplication.dll
+D:\Assignments Semester 04\SOC\SOC Submit\Visual Studio Project\HotelManagementSystemProject\HotelManagementWebClientapplication\obj\Debug\HotelManagementWebClientapplication.pdb
